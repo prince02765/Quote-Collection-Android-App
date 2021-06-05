@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".friendship_quotes">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:drawSelectorOnTop="false"
+        app:layout_goneMarginBottom="10dp"
+        app:layout_goneMarginEnd="10dp"
+        app:layout_goneMarginLeft="10dp"
+        app:layout_goneMarginRight="10dp"
+        app:layout_goneMarginStart="10dp"
+        app:layout_goneMarginTop="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="241dp" >
+
+    </ListView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

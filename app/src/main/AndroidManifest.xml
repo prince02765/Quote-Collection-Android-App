@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quotecollection">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuoteCollection">
+        <activity android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wisdom_quotes" />
+        <activity android:name=".thoughtful_quotes" />
+        <activity android:name=".success_quotes" />
+        <activity android:name=".motivational_quotes" />
+        <activity android:name=".life_quotes" />
+        <activity android:name=".love_quotes" />
+        <activity android:name=".inspirational_quotes" />
+        <activity android:name=".happiness_quotes" />
+        <activity android:name=".funny_quotes" />
+        <activity android:name=".friendship_quotes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
